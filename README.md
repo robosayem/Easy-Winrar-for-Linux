@@ -13,7 +13,7 @@ wget -qO- git.io/rar.sh | sudo bash
 or
 
 ```sh
-curl -fsSL https://raw.githubusercontent.com/sayem314/Easy-Winrar-for-Linux/master/install-rar.sh | sudo bash
+curl -fsSL git.io/rar.sh | sudo bash
 ```
 
 ## Uninstall
@@ -28,4 +28,3 @@ sudo rm -f /usr/local/bin/rar /usr/local/bin/unrar /etc/rarfiles.lst /usr/local/
 - x86_64 only — rarlab does not publish 32-bit or ARM builds of WinRAR for Linux
 - Pin a specific version instead of auto-detecting: `WINRAR_VERSION=7.2.3 bash install-rar.sh`
 - Downloads over HTTPS and extracts inside a private temp directory
-- `git.io/rar.sh` is a legacy GitHub shortlink — if it ever stops redirecting, use the raw URL above
